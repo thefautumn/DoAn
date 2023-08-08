@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:layout_marginRight="20dp">
+
+
+    <LinearLayout
+        android:layout_width="160dp"
+        android:layout_height="200dp"
+        android:background="@drawable/edit_img_tour_hot"
+        android:orientation="vertical">
+
+        <ImageButton
+            android:id="@+id/Anhbia"
+            android:layout_width="160dp"
+            android:layout_height="100dp"
+            android:background="@drawable/tour_da_lat" />
+
+        <TextView
+            android:id="@+id/Ten_Tour"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:text="Sun world Ba Na Hills tại Đà Nẵng"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/gia_ban_dau_1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="5dp"
+            android:text="VND 210.000"
+            android:textColor="@color/black"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/gia_discount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="1dp"
+            android:text="VND 171.000"
+            android:textColor="#FA4B00"
+            android:textSize="14dp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+    </LinearLayout>
+
+    <com.borjabravo.readmoretextview.ReadMoreTextView
+        android:id="@+id/mo_ta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/tvHDV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/PTDC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TextView"
+        android:visibility="gone" />
+</LinearLayout>
